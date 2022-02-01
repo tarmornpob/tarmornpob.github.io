@@ -1,0 +1,1 @@
+self.__BUILD_MANIFEST={__rewrites:{beforeFiles:[],afterFiles:[],fallback:[]},"/_error":["static/chunks/pages/_error-2280fa386d040b66.js"],"/port/phpjs-01":["static/chunks/pages/port/phpjs-01-a233e8333230bd5f.js"],sortedPages:["/_app","/_error","/port/phpjs-01"]},self.__BUILD_MANIFEST_CB&&self.__BUILD_MANIFEST_CB();
