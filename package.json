@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "npm run build && npm run export && touch out/.nojekyll"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "swiper": "^9.3.2",
+    "typewriter-effect": "^2.20.1"
+  }
+}

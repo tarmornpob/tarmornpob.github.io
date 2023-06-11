@@ -1,0 +1,150 @@
+.container {
+  min-height: 100vh;
+  padding: 5rem 0.5rem;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+#__next a:hover {
+  text-decoration: none !important;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.blueText {
+  color: #0070f3;
+  font-weight:bold;
+  opacity: 0.5;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: none;
+}
+
+.title {
+  margin: 0 0 1rem;
+  line-height: 1.15;
+  font-size: 3.6rem;
+}
+
+.title {
+  text-align: center;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.pinkColor {
+  color:rgb(247, 88, 213);
+}
+
+.description {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  max-width: 800px;
+  margin-top: 3rem;
+}
+
+.card {
+  margin: 1rem;
+  flex-basis: 45%;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+}
+
+.tabMenu a {
+  text-decoration: none !important;
+}
+
+.tabMenu {
+  display:flex;
+  width:100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tabMenu a {
+  padding:0.5rem;
+}
+
+.childTabMenu {
+  color:#000;
+  padding:0.5rem 1rem 0.5rem 1rem;
+  border-radius:7px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.12); 
+  opacity:0.6;
+}
+
+.childTabMenu:hover, .childTabMenu_active {
+  background-color:#0070f3;
+  color:#fff;
+  padding:1rem;
+  border-radius:7px;
+  transition: 300ms all ease-in-out 0ms;
+  box-shadow: 0 2px 6px 0 rgba(0,118,255,0.39);
+  opacity:1;
+  font-weight:700;
+}
+
+.boxContain {
+  width: 60%;
+  box-shadow: 0px 1px 5px rgba(0,0,0,.19);
+  padding:1rem;
+ 
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .boxContain {
+    width:95%;
+  }
+}

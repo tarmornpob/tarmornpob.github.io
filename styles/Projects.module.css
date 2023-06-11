@@ -1,0 +1,31 @@
+.detailProjects {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+}
+
+.detailProjects img {
+  width: 100%;
+}
+
+.previewText {
+  width:70%;
+  padding:0.5rem;
+  line-height:1.7rem;
+}
+
+.previewImg {
+  width:30%;
+  padding:0.5rem;
+  
+}
+
+@media (max-width: 600px) {
+  .previewImg {
+    width:100%;
+  }
+  .previewText {
+    width: 100%;
+  }
+}
