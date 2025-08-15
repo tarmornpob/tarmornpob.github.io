@@ -32,7 +32,7 @@ export default function About() {
                         <span style={{fontSize:'1.4vh'}}>tarmornpob@gmail.com</span>
                     </div>
                     <div className={`${def_styles.boxShadowStyle} ${def_styles.fntContent}`}>
-                        <b className={def_styles.blueColor}>Expected Salary: </b>25,000 THB
+                        <b className={def_styles.blueColor}>Expected Salary: </b>36,500 THB
                     </div>
                     <div className={`${def_styles.boxShadowStyle} ${def_styles.fntContent}`}>
                         <b className={`${def_styles.headProjects} ${def_styles.rmMargin}`}>Education</b>
