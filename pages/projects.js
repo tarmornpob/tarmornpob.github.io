@@ -20,8 +20,8 @@ export default function Projects() {
         <>
        
         <h2 className={def_styles.headTopic}>Projects</h2>
-        <span className={def_styles.smallText}>*Portfolio</span>
-            <h3 className={def_styles.headProjects}>VoteMovies</h3>
+        <span className={def_styles.smallText}>*Thaidotrun</span>
+            <h3 className={def_styles.headProjects}>MangobotM (photo delivery, automatic shutter android app)</h3>
             <div className={styles.detailProjects}>
                 <div className={styles.previewImg}>
                     <Swiper
@@ -30,20 +30,19 @@ export default function Projects() {
                     onSlideChange={() => console.log('slide change')}
                     onSwiper={(swiper) => console.log(swiper)}
                     >
-                        <SwiperSlide><img src="https://i.ibb.co/BNMn7X1/image.png" onClick={(e) => { open(e.currentTarget.src) }}/></SwiperSlide>
-                        <SwiperSlide><img src="https://gcdnb.pbrd.co/images/ABCSqmlkEwHW.png?o=1" onClick={(e) => { open(e.currentTarget.src) }}/></SwiperSlide>
-                        <SwiperSlide><img src="https://gcdnb.pbrd.co/images/GO4bfQnJcX8w.png?o=1" onClick={(e) => { open(e.currentTarget.src) }}/></SwiperSlide>
+                        <SwiperSlide><img src="https://i.ibb.co/4gfqJwPj/Screenshot-2568-08-15-at-15-59-20.png" onClick={(e) => { open(e.currentTarget.src) }}/></SwiperSlide>
+                        <SwiperSlide><img src="https://i.ibb.co/7tS7BxW7/Screenshot-2568-08-15-at-15-59-25.png" onClick={(e) => { open(e.currentTarget.src) }}/></SwiperSlide>
                     </Swiper>
                 </div>
                 <div className={styles.previewText}>
-                    <b>System Spec: </b>React + Node.js<br/>
-                    <b className={def_styles.redColor}>Assignment: </b>Create some project can be vote with like a movie by using React + Node.js<br/>
+                    <b>System Spec: </b>Android Java, (10.0)<br/>
+                    <b className={def_styles.redColor}>Assignment: </b>Create app receive photo when camera trigger and upload to server with usb connection<br/>
                     <b className={def_styles.blueColor}>What I do: </b><br/>
                     <ul style={{margin:'0'}}>
                         <li>Create UI-UX Experience, Programming Flow</li>
-                        <li>Use MongoDB for store data (Mongoose)</li>
-                        <li>JWT Token Authentication Check</li>
-                        <li>Member System (Vote, Review)</li>
+                        <li>Use SQLite for store data in device</li>
+                        <li>Low-level system app with gphoto2 </li>
+                        <li>API Connect to back-end (already exist)</li>
                     </ul>
                     <div className={def_styles.tryThisTab}>
                         <a href="https://vote-movies.vercel.app/" target="_blank" className={def_styles.buttonBlueStyle}>Try this Project <i className="fa-solid fa-arrow-up-right-from-square"></i></a>

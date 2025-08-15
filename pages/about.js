@@ -81,7 +81,7 @@ requirements, design database, coding full-stack)</li>
                                 <li>Scarping Post</li>
                             </ul>
 
-                            <b style={{marginTop:'2vh'}}>Web, App Jobs</b>
+                            <b style={{marginTop:'4vh'}}>Web, App Jobs</b>
                             <ul className={def_styles.ulStyleList}>
                                 <li>Unity app AR Nagivation</li>
                                 <li>LawHelper with Chatgpt API</li>
