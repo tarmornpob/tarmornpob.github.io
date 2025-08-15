@@ -45,7 +45,71 @@ export default function Projects() {
                         <li>API Connect to back-end (already exist)</li>
                     </ul>
                     <div className={def_styles.tryThisTab}>
-                        <a href="https://vote-movies.vercel.app/" target="_blank" className={def_styles.buttonBlueStyle}>Try this Project <i className="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        {/* <a href="https://vote-movies.vercel.app/" target="_blank" className={def_styles.buttonBlueStyle}>Try this Project <i className="fa-solid fa-arrow-up-right-from-square"></i></a> */}
+                    </div>
+                </div>
+            </div>
+        <hr style={{opacity:'0.3'}}/>
+        <span className={def_styles.smallText}>*Thaidotrun</span>
+            <h3 className={def_styles.headProjects}>Southern Star (Six-Star Challenge, Ranking runner, Races data, Profile runner)</h3>
+            <div className={styles.detailProjects}>
+                <div className={styles.previewImg}>
+                    <Swiper
+                    spaceBetween={50}
+                    slidesPerView={1}
+                    onSlideChange={() => console.log('slide change')}
+                    onSwiper={(swiper) => console.log(swiper)}
+                    >
+                        <SwiperSlide><img src="https://i.ibb.co/SL4VGQR/Screenshot-2568-08-15-at-16-25-33.png" onClick={(e) => { open(e.currentTarget.src) }}/></SwiperSlide>
+                        <SwiperSlide><img src="https://i.ibb.co/XkXW8pXM/Screenshot-2568-08-15-at-16-25-48.png" onClick={(e) => { open(e.currentTarget.src) }}/></SwiperSlide>
+                        <SwiperSlide><img src="https://i.ibb.co/KcmrMZq7/Screenshot-2568-08-15-at-16-26-03.png" onClick={(e) => { open(e.currentTarget.src) }}/></SwiperSlide>
+
+                    </Swiper>
+                </div>
+                <div className={styles.previewText}>
+                    <b>System Spec: </b>Astro Framework<br/>
+                    <b className={def_styles.redColor}>Assignment: </b>Create web app show races, runner, rankings and chart analytics with fully responsive design <br/>
+                    <b className={def_styles.blueColor}>What I do: </b><br/>
+                    <ul style={{margin:'0'}}>
+                        <li>Create UI-UX Experience, Programming Flow, Database Diagram</li>
+                        <li>Use Neon.db (Postgresql)</li>
+                        <li>UI/UX Website Chart.js most similar to UI Mockup</li>
+                        <li>Deploy with Cloudflared Pages </li>
+                    </ul>
+                    <div className={def_styles.tryThisTab}>
+                        <a href="https://southern-star-runx.pages.dev/" target="_blank" className={def_styles.buttonBlueStyle}>Try this Project <i className="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+        </div>
+        <hr style={{opacity:'0.3'}}/>
+        <span className={def_styles.smallText}>*Thaidotrun</span>
+            <h3 className={def_styles.headProjects}>RunX.run (Ranking runner, Races data, Profile runner)</h3>
+            <div className={styles.detailProjects}>
+                <div className={styles.previewImg}>
+                    <Swiper
+                    spaceBetween={50}
+                    slidesPerView={1}
+                    onSlideChange={() => console.log('slide change')}
+                    onSwiper={(swiper) => console.log(swiper)}
+                    >
+                        <SwiperSlide><img src="https://i.ibb.co/tnHmfNh/Screenshot-2568-08-15-at-16-17-56.png" onClick={(e) => { open(e.currentTarget.src) }}/></SwiperSlide>
+                        <SwiperSlide><img src="https://i.ibb.co/HfzwD14m/Screenshot-2568-08-15-at-16-18-12.png" onClick={(e) => { open(e.currentTarget.src) }}/></SwiperSlide>
+                        <SwiperSlide><img src="https://i.ibb.co/VYbFtcbL/Screenshot-2568-08-15-at-16-18-22.png" onClick={(e) => { open(e.currentTarget.src) }}/></SwiperSlide>
+
+                    </Swiper>
+                </div>
+                <div className={styles.previewText}>
+                    <b>System Spec: </b>React + Elysia<br/>
+                    <b className={def_styles.redColor}>Assignment: </b>Create web app show races, runner, rankings and chart analytics with fully responsive design <br/>
+                    <b className={def_styles.blueColor}>What I do: </b><br/>
+                    <ul style={{margin:'0'}}>
+                        <li>Create UI-UX Experience, Programming Flow, Database Diagram</li>
+                        <li>Use Neon.db (Postgresql)</li>
+                        <li>UI/UX Website Chart.js most similar to UI Mockup</li>
+                        <li>Deploy backend with Google VM </li>
+                    </ul>
+                    <div className={def_styles.tryThisTab}>
+                        <a href="https://runx.run" target="_blank" className={def_styles.buttonBlueStyle}>Try this Project <i className="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
             </div>
