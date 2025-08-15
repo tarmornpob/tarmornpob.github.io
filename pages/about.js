@@ -57,6 +57,19 @@ export default function About() {
                                 <li>Create Tools</li>
                             </ul>
                         </div>
+                        <b className={def_styles.buttonBlueStyle}>Thaidotrun Co., Ltd. (July 2023-Current)</b>
+                        <div style={{padding:'0.5rem 0.7rem 0.5rem 0.7rem',wordBreak:'break-word'}}>
+                    
+                            <b style={{marginTop:'2vh'}}>Full-stack Developer</b>
+                            <ul className={def_styles.ulStyleList}>
+                                <li>Deploy project on Cloudflare</li>
+                                <li>Deploy project on Google VM</li>
+                                <li>Android Java App (Video record, Auto shutter camera)</li>
+                                <li>Develop customer project (project planning, get
+requirements, design database, coding full-stack)</li>
+                            </ul>
+                        </div>
+
 
                         <b className={def_styles.buttonBlueStyle} style={{marginTop:'0.5rem'}}>Freelancer</b>
                         <div style={{padding:'0.5rem 0.7rem 0.5rem 0.7rem',wordBreak:'break-word'}}>
@@ -66,6 +79,12 @@ export default function About() {
                                 <li>Auto Posting</li>
                                 <li>Auto Remove</li>
                                 <li>Scarping Post</li>
+                            </ul>
+
+                            <b style={{marginTop:'2vh'}}>Web, App Jobs</b>
+                            <ul className={def_styles.ulStyleList}>
+                                <li>Unity app AR Nagivation</li>
+                                <li>LawHelper with Chatgpt API</li>
                             </ul>
                         </div>
 
